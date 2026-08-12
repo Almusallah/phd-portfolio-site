@@ -162,6 +162,7 @@ p { margin: 0 0 1.15em; }
 .fig--tall img { aspect-ratio: 3 / 4; }
 .fig--wide img { aspect-ratio: 16 / 9; }
 .fig--free img { aspect-ratio: auto; }
+.fig--square img { aspect-ratio: 1 / 1; }
 .fig:hover img { filter: saturate(1); transform: scale(1.012); }
 .cap {
   font-size: var(--t-small); color: var(--ink-45); margin-top: 0.5rem; line-height: 1.4;
