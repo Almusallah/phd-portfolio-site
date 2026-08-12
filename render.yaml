@@ -1,10 +1,15 @@
 services:
   - type: web
-    name: phd-portfolio
+    name: phd-portfolio-frassi
     runtime: static
-    staticPublishPath: .
-    buildCommand: ""
+    buildCommand: "echo no build step required"
+    staticPublishPath: ./
+    pullRequestPreviewsEnabled: false
     headers:
       - path: /*
         name: X-Robots-Tag
         value: noindex, nofollow
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
