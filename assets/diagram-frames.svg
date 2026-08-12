@@ -14,7 +14,7 @@
   <!-- ============ TITLES ============ -->
   <text x="70" y="62" font-size="27" font-weight="600" fill="#111">What I fix, what I release</text>
   <text x="70" y="90" font-size="15" fill="#666">Every project of Officine Gặp plotted on the two variables the practice actually turns.</text>
-  <text x="70" y="112" font-size="15" fill="#666">Yuri Frassi · s4017499 · Milestone 2 · September 2026</text>
+  <text x="70" y="112" font-size="15" fill="#666">Yuri Frassi · s4017499 · PRS Asia · September 2026</text>
 
   <!-- ============ THE FAILURE BAND (drawn first, sits behind) ============ -->
   <path d="M 760 200 L 1180 200 L 1180 470 Z" fill="#d94f3d" opacity="0.07"/>
@@ -39,7 +39,7 @@
   <line x1="1160" y1="695" x2="1160" y2="705" stroke="#bbb"/>
 
   <!-- y axis -->
-  <text x="0" y="0" font-size="16.5" font-weight="600" fill="#111" text-anchor="middle" transform="translate(112,440) rotate(-90)">HOW MUCH IS RELEASED</text>
+  <text x="200" y="160" font-size="16.5" font-weight="600" fill="#111">HOW MUCH IS RELEASED ↑</text>
   <text x="0" y="0" font-size="13" fill="#666" text-anchor="end" transform="translate(188,690)">nothing · we decide everything</text>
   <text x="0" y="0" font-size="13" fill="#666" text-anchor="end" transform="translate(188,470)">others make the content</text>
   <text x="0" y="0" font-size="13" fill="#666" text-anchor="end" transform="translate(188,300)">others make the content</text>
@@ -50,15 +50,16 @@
   <line x1="195" y1="200" x2="205" y2="200" stroke="#bbb"/>
 
   <!-- ============ THE OTHER MODE — off-axis, separated ============ -->
-  <rect x="252" y="800" width="470" height="66" rx="4" fill="#f2f2f2" stroke="#ccc" stroke-dasharray="4 3"/>
-  <circle cx="286" cy="833" r="9" fill="#8a8a8a"/>
-  <text x="308" y="828" font-size="14" font-weight="600" fill="#444">BIENNALE PRODUCTION · CAB26, BB25, IAB25 · 2024–26</text>
-  <text x="308" y="848" font-size="12.5" fill="#777">Fixed term, nothing released. Off this chart entirely: a different community of practice.</text>
+  <rect x="278" y="800" width="462" height="66" rx="4" fill="#f2f2f2" stroke="#ccc" stroke-dasharray="4 3"/>
+  <circle cx="312" cy="833" r="9" fill="#8a8a8a"/>
+  <text x="334" y="822" font-size="14" font-weight="600" fill="#444">BIENNALE PRODUCTION · CAB26, BB25, IAB25 · 2024–26</text>
+  <text x="334" y="841" font-size="12.5" fill="#777">Fixed term, nothing released. Off this chart entirely:</text>
+  <text x="334" y="858" font-size="12.5" fill="#777">a different community of practice.</text>
 
   <!-- ============ TRAJECTORY ARROW: CASC → SOUND MAP ============ -->
-  <path d="M 372 636 C 560 620, 900 480, 1112 262" stroke="#9a9a9a" stroke-width="1.5"
+  <path d="M 372 630 C 550 592, 1020 640, 1121 272" stroke="#9a9a9a" stroke-width="1.5"
         stroke-dasharray="6 5" fill="none" marker-end="url(#arGrey)"/>
-  <text x="0" y="0" font-size="12.5" fill="#8a8a8a" font-style="italic" transform="translate(686,540) rotate(-25)">the same project, authorship moved out of the composition and into the frame</text>
+  <text x="0" y="0" font-size="12.5" fill="#8a8a8a" font-style="italic" transform="translate(620,612) rotate(-5)">the same project, authorship moved out of the composition and into the frame</text>
 
   <!-- ============ PLOTTED PROJECTS ============ -->
 
@@ -91,23 +92,23 @@
   <text x="678" y="340" font-size="12.5" fill="#777">2023 · 15 children, aged 4–5, ending in an exhibition</text>
   <text x="678" y="357" font-size="12.5" fill="#777">The only project where my frame was the only frame.</text>
 
-  <!-- Gặp Series -->
+  <!-- Gặp Series — labels above-left of the dot -->
   <circle cx="880" cy="252" r="12" fill="#c9861a"/>
-  <text x="902" y="248" font-size="14.5" font-weight="600" fill="#b8791a">THE GẶP SERIES</text>
-  <text x="902" y="266" font-size="12.5" fill="#777">2023– · each guest chooses who comes next</text>
-  <text x="902" y="283" font-size="12.5" fill="#c9861a" font-weight="600">The release is checkable — but nothing is published.</text>
+  <text x="0" y="0" font-size="14.5" font-weight="600" fill="#b8791a" text-anchor="end" transform="translate(858,214)">THE GẶP SERIES</text>
+  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(858,232)">2023– · each guest chooses who comes next</text>
+  <text x="0" y="0" font-size="12.5" fill="#c9861a" font-weight="600" text-anchor="end" transform="translate(858,249)">The release is checkable — but nothing is published.</text>
 
-  <!-- Sound map -->
+  <!-- Sound map — labels above the dot, anchored into the top-right margin -->
   <circle cx="1120" cy="250" r="14" fill="#c9861a"/>
-  <text x="0" y="0" font-size="14.5" font-weight="600" fill="#b8791a" text-anchor="end" transform="translate(1098,224)">SAIGON_MIỀN TÂY SOUND MAP</text>
-  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(1098,242)">2025– · open upload, moderated queue</text>
-  <text x="0" y="0" font-size="12.5" fill="#c9861a" font-weight="600" text-anchor="end" transform="translate(1098,259)">No licence. No consent record. Held indefinitely by me.</text>
+  <text x="1000" y="179" font-size="14.5" font-weight="600" fill="#b8791a">SAIGON_MIỀN TÂY SOUND MAP</text>
+  <text x="1000" y="197" font-size="12.5" fill="#777">2025– · open upload, moderated queue</text>
+  <text x="1000" y="215" font-size="12.5" fill="#c9861a" font-weight="600">No licence. No consent record. Held indefinitely by me.</text>
 
-  <!-- RN book -->
+  <!-- RN book — labels BELOW the dot, clear of TUAR -->
   <circle cx="1005" cy="372" r="12" fill="#c0392b"/>
-  <text x="0" y="0" font-size="14.5" font-weight="600" fill="#c0392b" text-anchor="end" transform="translate(983,352)">REINTERPRETING NARROWNESS — the book</text>
-  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(983,370)">Proposed Sept 2023 · 23 projects, 3 essays, all confirmed</text>
-  <text x="0" y="0" font-size="12.5" fill="#c0392b" font-weight="600" text-anchor="end" transform="translate(983,387)">Four years unpublished. Contributors dropped off by attrition.</text>
+  <text x="0" y="0" font-size="14.5" font-weight="600" fill="#c0392b" text-anchor="end" transform="translate(983,392)">REINTERPRETING NARROWNESS — the book</text>
+  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(983,410)">Proposed Sept 2023 · 23 projects, 3 essays, all confirmed</text>
+  <text x="0" y="0" font-size="12.5" fill="#c0392b" font-weight="600" text-anchor="end" transform="translate(983,427)">Four years unpublished. Contributors dropped off by attrition.</text>
 
   <!-- ============ THE FINDING ============ -->
   <line x1="70" y1="806" x2="70" y2="878" stroke="#111" stroke-width="3"/>
