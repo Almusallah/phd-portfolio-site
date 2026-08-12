@@ -14,7 +14,7 @@
   <!-- ============ TITLES ============ -->
   <text x="70" y="62" font-size="27" font-weight="600" fill="#111">What I fix, what I release</text>
   <text x="70" y="90" font-size="15" fill="#666">Every project of Officine Gặp plotted on the two variables the practice actually turns.</text>
-  <text x="70" y="112" font-size="15" fill="#666">Yuri Frassi · s4017499 · PRS Asia · September 2026</text>
+  <text x="70" y="112" font-size="15" fill="#666">Yuri Frassi · s4017499 · Milestone 2 · September 2026</text>
 
   <!-- ============ THE FAILURE BAND (drawn first, sits behind) ============ -->
   <path d="M 760 200 L 1180 200 L 1180 470 Z" fill="#d94f3d" opacity="0.07"/>
