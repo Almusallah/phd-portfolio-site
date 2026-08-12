@@ -18,9 +18,9 @@
 
   <!-- ============ THE FAILURE BAND (drawn first, sits behind) ============ -->
   <path d="M 760 200 L 1180 200 L 1180 470 Z" fill="#d94f3d" opacity="0.07"/>
-  <text x="1172" y="243" font-size="13.5" font-weight="600" fill="#c0392b" text-anchor="end">where the practice fails</text>
-  <text x="1172" y="263" font-size="12.5" fill="#c0392b" text-anchor="end">long hold + high release =</text>
-  <text x="1172" y="280" font-size="12.5" fill="#c0392b" text-anchor="end">editing, not hosting</text>
+  <text x="1330" y="600" font-size="13.5" font-weight="600" fill="#c0392b" text-anchor="end">where the practice fails</text>
+  <text x="1330" y="620" font-size="12.5" fill="#c0392b" text-anchor="end">long hold + high release =</text>
+  <text x="1330" y="637" font-size="12.5" fill="#c0392b" text-anchor="end">editing, not hosting</text>
 
   <!-- ============ AXES ============ -->
   <line x1="200" y1="700" x2="1215" y2="700" stroke="#111" stroke-width="1.6" marker-end="url(#ar)"/>
@@ -94,13 +94,13 @@
   <!-- Gặp Series -->
   <circle cx="880" cy="252" r="12" fill="#c9861a"/>
   <text x="902" y="248" font-size="14.5" font-weight="600" fill="#b8791a">THE GẶP SERIES</text>
-  <text x="902" y="266" font-size="12.5" fill="#777">2023– · each guest nominates the next</text>
+  <text x="902" y="266" font-size="12.5" fill="#777">2023– · each guest chooses who comes next</text>
   <text x="902" y="283" font-size="12.5" fill="#c9861a" font-weight="600">The release is checkable — but nothing is published.</text>
 
   <!-- Sound map -->
   <circle cx="1120" cy="250" r="14" fill="#c9861a"/>
   <text x="0" y="0" font-size="14.5" font-weight="600" fill="#b8791a" text-anchor="end" transform="translate(1098,224)">SAIGON_MIỀN TÂY SOUND MAP</text>
-  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(1098,242)">2025– · 18 categories, open upload, unmoderated</text>
+  <text x="0" y="0" font-size="12.5" fill="#777" text-anchor="end" transform="translate(1098,242)">2025– · open upload, moderated queue</text>
   <text x="0" y="0" font-size="12.5" fill="#c9861a" font-weight="600" text-anchor="end" transform="translate(1098,259)">No licence. No consent record. Held indefinitely by me.</text>
 
   <!-- RN book -->
