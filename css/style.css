@@ -144,6 +144,14 @@ p { margin: 0 0 1.15em; }
   .grid--3 { grid-template-columns: repeat(3, 1fr); }
   .grid--4 { grid-template-columns: repeat(4, 1fr); }
 }
+.embed { margin-top: clamp(1.6rem, 3vw, 2.8rem); }
+.embed iframe {
+  display: block; width: 100%; border: 1px solid var(--ink-14);
+  height: clamp(420px, 62vh, 660px); background: var(--paper-2);
+}
+.embed--audio iframe { height: 300px; }
+.embed .cap { margin-top: 0.6rem; }
+
 .fig { margin: 0; }
 .fig img {
   width: 100%; aspect-ratio: 4 / 3; object-fit: cover;
