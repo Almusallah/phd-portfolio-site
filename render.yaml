@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: phd-portfolio
+    runtime: static
+    staticPublishPath: .
+    buildCommand: ""
+    headers:
+      - path: /*
+        name: X-Robots-Tag
+        value: noindex, nofollow
