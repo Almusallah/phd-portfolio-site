@@ -163,6 +163,11 @@ p { margin: 0 0 1.15em; }
 .fig--wide img { aspect-ratio: 16 / 9; }
 .fig--free img { aspect-ratio: auto; }
 .fig--square img { aspect-ratio: 1 / 1; }
+.fig--3x2 img { aspect-ratio: 3 / 2; }
+.fig--5x4 img { aspect-ratio: 5 / 4; }
+/* an image whose orientation differs from the rest of its row: show the whole
+   frame on the paper ground rather than crop it to fit the box */
+.fig--whole img { object-fit: contain; }
 .fig:hover img { filter: saturate(1); transform: scale(1.012); }
 .cap {
   font-size: var(--t-small); color: var(--ink-45); margin-top: 0.5rem; line-height: 1.4;
@@ -213,6 +218,11 @@ p { margin: 0 0 1.15em; }
   .fig img { filter: none; aspect-ratio: 3 / 2; }
   .fig--tall img { aspect-ratio: 3 / 4; }
   .fig--wide img { aspect-ratio: 16 / 9; }
+  .fig--square img { aspect-ratio: 1 / 1; }
+  .fig--free img { aspect-ratio: auto; }
+  .fig--3x2 img { aspect-ratio: 3 / 2; }
+  .fig--5x4 img { aspect-ratio: 5 / 4; }
+  .fig--whole img { object-fit: contain; }
   .grid { gap: 3mm; margin-top: 5mm; }
   .grid--2 { grid-template-columns: repeat(2, 1fr) !important; }
   .grid--3 { grid-template-columns: repeat(3, 1fr) !important; }
