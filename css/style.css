@@ -168,6 +168,9 @@ p { margin: 0 0 1.15em; }
 /* an image whose orientation differs from the rest of its row: show the whole
    frame on the paper ground rather than crop it to fit the box */
 .fig--whole img { object-fit: contain; }
+/* two landscape figures stacked in one cell, so a portrait beside them runs the
+   full height of the row — neither one cropped, neither one letterboxed */
+.grid__stack { display: grid; gap: inherit; align-content: start; }
 .fig:hover img { filter: saturate(1); transform: scale(1.012); }
 .cap {
   font-size: var(--t-small); color: var(--ink-45); margin-top: 0.5rem; line-height: 1.4;
@@ -225,6 +228,7 @@ p { margin: 0 0 1.15em; }
   .fig--whole img { object-fit: contain; }
   .grid { gap: 3mm; margin-top: 5mm; }
   .grid--2 { grid-template-columns: repeat(2, 1fr) !important; }
+  .grid__stack { display: grid; gap: 3mm; align-content: start; }
   .grid--3 { grid-template-columns: repeat(3, 1fr) !important; }
   .grid--4 { grid-template-columns: repeat(4, 1fr) !important; }
   .move__head { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) !important; gap: 8mm !important; }
