@@ -298,7 +298,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {outline:2px solid va
 .document-pages {font-size:.9rem;color:var(--ink-70);}
 .document-links {display:flex;gap:.6rem;justify-content:flex-end;}
 .document-links a {min-width:3rem;min-height:44px;display:grid;place-items:center;font-size:.9rem;color:var(--accent);padding:.35rem;}
-.sec--dark .cap,.sec--dark .num {color:#b6bac2;}
+.sec--dark .cap,.sec--dark .num {color:#bbb;}
 .sec--dark .cap b {color:#fff;}
 .ev li {white-space:normal;}
 .tbl th {font-size:.875rem;letter-spacing:.03em;}
