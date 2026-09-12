@@ -10,16 +10,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='6' width='20' height='20' fill='none' stroke='%23181314' stroke-width='3'/%3E%3C/svg%3E" />
 <link rel="stylesheet" href="/css/fonts.css" />
 <link rel="stylesheet" href="/css/style.css" />
-<style id="inline-instrument-layout">
-/* The instrument shares the page flow; its contents determine its height. */
+<style id="instrument-illustration-layout">
 .hero { background: #f4f3ed; }
-.hero__copy { grid-column: 1 / -1; max-width: 70rem; }
-.hero__visual--instrument { grid-column: 1 / -1; width: 100%; max-width: none; margin-top: 1.5rem; }
-.circuit-inline { display: block; width: 100%; height: 980px; border: 0; background: transparent; }
-.hero__visual--instrument figcaption { max-width: 62rem; }
-@media (max-width: 900px) { .circuit-inline { height: 1000px; } }
-@media (max-width: 550px) { .circuit-inline { height: 860px; } }
-@media print { .circuit-inline { display: none; } }
+.hero__visual img { display: block; width: 100%; height: auto; }
 </style>
 </head>
 <body>
@@ -39,9 +32,8 @@
     <p class="hero__intro">A study of walking, listening, recording and convening through the shared practice of Officine Gặp.</p>
     <div class="hero__actions"><a class="text-link" href="#cases">Explore the four cases</a></div>
     <div class="hero__facts"><div><b>Yuri Frassi</b>DR207 · RMIT University</div><div><b>Officine Gặp</b>with Afra Rebuscini, est. 2022</div></div></div>
-    <figure class="hero__visual hero__visual--instrument" id="encounter-instrument">
-      <iframe id="circuit-inline" class="circuit-inline" src="/diagrams/Encounter_Interactive.html?embed=1" title="Encounter: adjust six conditions of the city’s sensory experience" aria-describedby="circuit-inline-caption" loading="eager"></iframe>
-      <figcaption id="circuit-inline-caption">A conceptual instrument for encounter. Move a control to change the illustrative sensory traces. <a href="#encounter">Read about the methodology</a>.</figcaption>
+    <figure class="hero__visual" id="encounter-instrument">
+      <img src="/assets/milestone-2/circuit-bw.svg" width="1600" height="900" alt="Encounter: a technical-manual illustration connecting Ho Chi Minh City, the projects, sensory experience and perception." fetchpriority="high">
     </figure>
   </div>
 </section>
@@ -769,32 +761,5 @@
 </footer>
 
 <script src="/js/main.js"></script>
-<script>
-(() => {
-  const frame = document.getElementById('circuit-inline');
-  let observer;
-  let pending;
-  function fitInstrument() {
-    cancelAnimationFrame(pending);
-    pending = requestAnimationFrame(() => {
-      const sheet = frame.contentDocument?.querySelector('.shell');
-      if (!sheet) return;
-      const height = Math.ceil(sheet.getBoundingClientRect().height);
-      if (height > 0) frame.style.height = (height + 2) + 'px';
-    });
-  }
-  function observeInstrument() {
-    observer?.disconnect();
-    const sheet = frame.contentDocument?.querySelector('.shell');
-    if (!sheet) return;
-    observer = new ResizeObserver(fitInstrument);
-    observer.observe(sheet);
-    fitInstrument();
-  }
-  frame.addEventListener('load', observeInstrument);
-  observeInstrument();
-  window.addEventListener('resize', fitInstrument, { passive: true });
-})();
-</script>
 </body>
 </html>
